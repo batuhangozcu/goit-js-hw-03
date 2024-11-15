@@ -1,9 +1,6 @@
 function filterArray(numbers, value) {
-  for (const number of numbers) {
-    const result = numbers.filter((number) => number > value);
-    return result
-  }
-  return result
+  const result = numbers.filter((numbers) => numbers > value);
+  return result;
 }
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
